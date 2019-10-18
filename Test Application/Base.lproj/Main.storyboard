@@ -779,7 +779,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="HOME" id="ZzT-up-482">
                         <barButtonItem key="backBarButtonItem" title=" " id="jHu-zf-qyN"/>
-                        <barButtonItem key="leftBarButtonItem" title="Dash" id="eAN-OD-svC">
+                        <barButtonItem key="leftBarButtonItem" image="Menu" id="eAN-OD-svC">
                             <connections>
                                 <action selector="onDashTapped" destination="YVB-6Q-z0k" id="eOl-Wz-fE9"/>
                             </connections>
@@ -953,6 +953,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Menu" width="22" height="17"/>
         <image name="businessman" width="512" height="512"/>
         <image name="gmail" width="512" height="512"/>
         <image name="locating" width="512" height="512"/>
